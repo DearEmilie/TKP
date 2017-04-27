@@ -20,12 +20,12 @@ namespace SimpleSquare
 
 		private static void defaultwidthforthetortoise()
 		{
-			Homework.CheckAnswer(___, equals, Tortoise.GetPenWidth());
+			Homework.CheckAnswer(2, equals, Tortoise.GetPenWidth());
 		}
 
 		private static void stringsneedquotes()
 		{
-			Homework.CheckAnswer(___, equals, "Green");
+			Homework.CheckAnswer("Green", equals, "Green");
 		}
 
 		private static void stringscanincludespaces()
