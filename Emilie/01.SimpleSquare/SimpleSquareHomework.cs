@@ -81,13 +81,13 @@ namespace SimpleSquare
 		private static void assigningvariables()
 		{
 			Primitive numberOfToes = 10;
-			Homework.CheckAnswer(___, equals, numberOfToes);
+			Homework.CheckAnswer(10, equals, numberOfToes);
 		}
 
 		private static void combiningnumbers()
 		{
 			Primitive age = 3 + 4;
-			Homework.CheckAnswer(___, equals, age);
+			Homework.CheckAnswer(7, equals, age);
 		}
 
 		private static void combiningtext()
