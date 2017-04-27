@@ -99,7 +99,7 @@ namespace SimpleSquare
 		private static void combiningtextandnumbers()
 		{
 			Primitive name = "Henry The " + 8;
-			Homework.CheckAnswer(___, equals, name);
+			Homework.CheckAnswer("Henry The 8", equals, name);
 		}
 
 		private static void combiningtextinaloop()
