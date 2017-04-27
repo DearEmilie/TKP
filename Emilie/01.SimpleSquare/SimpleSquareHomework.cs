@@ -35,7 +35,7 @@ namespace SimpleSquare
 
 		private static void defaultcolorforthetortoise()
 		{
-			Homework.CheckAnswer(___, equals, Tortoise.GetPenColor());
+			Homework.CheckAnswer("Black", equals, Tortoise.GetPenColor());
 		}
 
 		private static void changingthepenwidthto5()
