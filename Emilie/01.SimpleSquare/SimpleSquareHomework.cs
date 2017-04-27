@@ -30,7 +30,7 @@ namespace SimpleSquare
 
 		private static void stringscanincludespaces()
 		{
-			Homework.CheckAnswer(___, equals, "This is a string");
+			Homework.CheckAnswer("This is a string" , equals, "This is a string");
 		}
 
 		private static void defaultcolorforthetortoise()
