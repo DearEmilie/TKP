@@ -53,7 +53,7 @@ namespace SimpleSquare
 		private static void movingthetortoise100pixels()
 		{
 			var start = Tortoise.GetY();
-			Tortoise.Move(___);
+			Tortoise.Move(100);
 			Homework.CheckAnswer(start - 100, equals, Tortoise.GetY());
 		}
 
