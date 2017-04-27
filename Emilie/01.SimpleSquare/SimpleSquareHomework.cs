@@ -93,7 +93,7 @@ namespace SimpleSquare
 		private static void combiningtext()
 		{
 			Primitive name = "Peter" + " " + "Pan";
-			Homework.CheckAnswer(___, equals, name);
+			Homework.CheckAnswer("Peter Pan", equals, name);
 		}
 
 		private static void combiningtextandnumbers()
