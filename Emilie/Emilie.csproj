@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SimpleSquare.SimpleSquare</StartupObject>
+    <StartupObject>Emilie._00.Addie.Love.AddieHomework</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="SmallBasicFun, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -54,6 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="00.Addie.Love\AddieHomework.cs" />
     <Compile Include="01.SimpleSquare\SimpleSquare.cs" />
     <Compile Include="01.SimpleSquare\SimpleSquareHomework.cs" />
     <Compile Include="01.SimpleSquare\SimpleSquareQuiz.cs" />

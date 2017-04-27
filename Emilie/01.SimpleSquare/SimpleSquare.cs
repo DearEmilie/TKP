@@ -9,8 +9,8 @@ namespace SimpleSquare
             Tortoise.Show();
             Tortoise.SetSpeed(10);
 
-            var sides = 42;
-
+            var sides = MessageBox.AskForInput("How many sides?");
+            
             for (int spins = 1; spins < sides; spins++)
             {
                 for (int i = 0; i < sides; i++)
