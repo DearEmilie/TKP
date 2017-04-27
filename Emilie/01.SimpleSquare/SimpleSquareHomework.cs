@@ -15,7 +15,7 @@ namespace SimpleSquare
 
 		private static void numbersdonotneedquotes()
 		{
-			Homework.CheckAnswer(___, equals, 42);
+			Homework.CheckAnswer(21+21, equals, 42);
 		}
 
 		private static void defaultwidthforthetortoise()

@@ -10,3 +10,12 @@ C:\Code\Emilie\Emilie\obj\Debug\Emilie.pdb
 C:\Code\Git\Emilie\Emilie\bin\Debug\Emilie.exe.config
 C:\Code\Git\Emilie\Emilie\obj\Debug\Emilie.exe
 C:\Code\Git\Emilie\Emilie\obj\Debug\Emilie.pdb
+C:\Code\Git\TKP\Emilie\bin\Debug\Emilie.exe.config
+C:\Code\Git\TKP\Emilie\obj\Debug\Emilie.exe
+C:\Code\Git\TKP\Emilie\obj\Debug\Emilie.pdb
+C:\Code\Git\TKP\Emilie\bin\Debug\Emilie.exe
+C:\Code\Git\TKP\Emilie\bin\Debug\Emilie.pdb
+C:\Code\Git\TKP\Emilie\bin\Debug\SmallBasicFun.dll
+C:\Code\Git\TKP\Emilie\bin\Debug\SmallBasicLibrary.dll
+C:\Code\Git\TKP\Emilie\bin\Debug\SmallBasicFun.xml
+C:\Code\Git\TKP\Emilie\obj\Debug\Emilie.csprojResolveAssemblyReference.cache
