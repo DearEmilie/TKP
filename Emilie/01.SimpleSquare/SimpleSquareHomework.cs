@@ -73,8 +73,8 @@ namespace SimpleSquare
 
 		private static void howfastcanthetortoisego()
 		{
-			Tortoise.SetSpeed(___);
-			Homework.CheckAnswer(topSpeed, equals, Tortoise.GetSpeed());
+			Tortoise.SetSpeed(10);
+			Homework.CheckAnswer(Tortoise.GetSpeed(), equals, topSpeed);
 			//Hint: Right Click SetSpeed then select 'Go to Declaration' 
 		}
 
