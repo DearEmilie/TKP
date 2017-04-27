@@ -9,30 +9,21 @@ namespace SimpleSquare
             Tortoise.Show();
             Tortoise.SetSpeed(10);
 
-		    var random = new System.Random();
+            var sides = 42;
 
+            for (int spins = 1; spins < sides; spins++)
+            {
+                for (int i = 0; i < sides; i++)
+                {
+                    Tortoise.SetPenColor(Colors.GetRandomColor());
+                    Tortoise.Move(100);
+                    Tortoise.Turn((360.0 * spins) / sides);
+                }
 
-		    for (int i = 0; i < 100; i++)
-		    {
-                Tortoise.Turn(random.NextDouble() * 360);
-                Tortoise.Move(20);
+                System.Threading.Thread.Sleep(100);
+                //ProgramWindow.Clear();
+                Tortoise.Show();
             }
-            
-            //var sides = 42;
-
-            //for (int spins = 1; spins < sides; spins++)
-            //{
-            //    for (int i = 0; i < sides; i++)
-            //    {
-            //        Tortoise.SetPenColor(Colors.GetRandomColor());
-            //        Tortoise.Move(100);
-            //        Tortoise.Turn((360.0 * spins)/sides);
-            //    }
-
-            //          System.Threading.Thread.Sleep(1000);
-            //          ProgramWindow.Clear();
-            //          Tortoise.Show();
-            //      }
         }
 	}
 }
