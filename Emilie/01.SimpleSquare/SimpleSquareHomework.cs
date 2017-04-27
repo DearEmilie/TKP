@@ -46,7 +46,7 @@ namespace SimpleSquare
 
 		private static void changingthepencolortogreen()
 		{
-			Tortoise.SetPenColor(___);
+			Tortoise.SetPenColor("Green");
 			Homework.CheckAnswer(Tortoise.GetPenColor(), equals, "Green");
 		}
 
