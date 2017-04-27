@@ -40,7 +40,7 @@ namespace SimpleSquare
 
 		private static void changingthepenwidthto5()
 		{
-			Tortoise.SetPenWidth(___);
+			Tortoise.SetPenWidth(5);
 			Homework.CheckAnswer(5, equals, Tortoise.GetPenWidth());
 		}
 
