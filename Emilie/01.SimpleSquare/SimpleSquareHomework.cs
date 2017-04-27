@@ -54,21 +54,21 @@ namespace SimpleSquare
 		{
 			var start = Tortoise.GetY();
 			Tortoise.Move(100);
-			Homework.CheckAnswer(start - 100, equals, Tortoise.GetY());
+			Homework.CheckAnswer(Tortoise.GetY(), equals, start - 100);
 		}
 
 		private static void thetortoiseturns21()
 		{
-			Tortoise.Turn(___);
-			Homework.CheckAnswer(21, equals, Tortoise.GetAngle());
+			Tortoise.Turn(21);
+			Homework.CheckAnswer(Tortoise.GetAngle(), equals, 21);
 		}
 
 		private static void thetortoiseturns15twice()
 		{
-			var ans = ___;
+			var ans = 15;
 			Tortoise.Turn(ans);
 			Tortoise.Turn(ans);
-			Homework.CheckAnswer(30, equals, Tortoise.GetAngle());
+			Homework.CheckAnswer(Tortoise.GetAngle(), equals, 30);
 		}
 
 		private static void howfastcanthetortoisego()
